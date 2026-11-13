@@ -10,7 +10,7 @@
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="መገኘት">
+<meta name="apple-mobile-web-app-title" content="አቴዳንስ">
 <style>
 :root{
   --bg:#f5f7f8; --card:#ffffff; --ink:#0f172a; --muted:#64748b; --line:#e4e9ee;
@@ -362,7 +362,7 @@ code{background:#eef2f6;padding:1.5px 5px;border-radius:5px;font-size:12px;font-
         </svg>
       </div>
       <div class="brand-txt">
-        <b>የመገኘት መቆጣጠሪያ</b>
+        <b>የሰዓት መቆጣጠሪያ</b>
         <span id="topDate">—</span>
       </div>
     </div>
@@ -380,7 +380,7 @@ code{background:#eef2f6;padding:1.5px 5px;border-radius:5px;font-size:12px;font-
     <!-- ============ CHECK-IN ============ -->
     <section class="screen active" id="screen-checkin">
       <div class="card clock-card">
-        <div class="lbl">የኢትዮጵያ ሰዓት</div>
+        <div class="lbl">በኢትዮጵያ ሰዓት</div>
         <div class="clock" id="liveClock">--:--</div>
         <div class="clock-sub" id="liveDate">—</div>
         <div class="clock-sub" id="liveGreg" style="opacity:.72">—</div>
@@ -406,20 +406,20 @@ code{background:#eef2f6;padding:1.5px 5px;border-radius:5px;font-size:12px;font-
             ኮድ ቁጥር
           </button>
         </div>
-        <div class="tiny muted" id="methodHint" style="margin-top:9px;line-height:1.5">ፊትዎን በካሜራ ይቃኙ — ማንነትዎ ሲረጋገጥ ምዝገባው በራሱ ይፈጸማል።</div>
+        <div class="tiny muted" id="methodHint" style="margin-top:9px;line-height:1.5">ፊትዎን በነጠብጣብ ክብ ውስጥ ያስገቡ — ማንነትዎ ሲረጋገጥ ምዝገባው በራሱ ይፈጸማል።</div>
       </div>
 
       <div class="cam-wrap" id="camWrap">
         <video id="video" playsinline muted autoplay></video>
         <canvas id="canvas"></canvas>
         <div class="cam-overlay"><div class="face-ring"></div></div>
-        <div class="cam-hint" id="camHint">ፊትዎን በክብው ውስጥ ያስቀምጡ</div>
+        <div class="cam-hint" id="camHint">ፊትዎን በነጠብጣብ ክብው ውስጥ ያስቀምጡ</div>
         <div class="cam-placeholder" id="camPlaceholder">
           <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
             <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
             <circle cx="12" cy="13" r="4"/>
           </svg>
-          <div>ካሜራ ለመክፈት ከታች ያለውን ቁልፍ ይጫኑ</div>
+          <div>ካሜራውን ለመክፈት ከታች ያለውን ቁልፍ ይጫኑ</div>
         </div>
       </div>
 
@@ -554,7 +554,7 @@ code{background:#eef2f6;padding:1.5px 5px;border-radius:5px;font-size:12px;font-
       <h2 class="sec">ዝርዝር</h2>
       <div class="tbl-wrap">
         <table>
-          <thead><tr><th>ሰራተኛ</th><th>ቀን</th><th>ጠዋት ገባ</th><th>ምሳ ወጣ</th><th>ምሳ ተመለሰ</th><th>ቤት ወጣ</th><th>ሰዓት</th><th>ሁኔታ</th></tr></thead>
+          <thead><tr><th>ሰራተኛው</th><th>ቀን</th><th>ጠዋት ገባ</th><th>ምሳ ወጣ</th><th>ምሳ ተመለሰ</th><th>ቤት ወጣ</th><th>ሰዓት</th><th>ሁኔታ</th></tr></thead>
           <tbody id="repBody"></tbody>
         </table>
       </div>
@@ -581,7 +581,7 @@ code{background:#eef2f6;padding:1.5px 5px;border-radius:5px;font-size:12px;font-
           <div>
             <label class="f">ክፍል</label>
             <select id="empDept">
-              <option>አስተዳደር</option><option>ፋይናንስ</option><option>አይቲ</option>
+              <option>አስተዳደር</option><option>ፋይናንስ</option><option>አይቲ</option><option>አይቲ</option>
               <option>ሽያጭ</option><option>ምርት</option><option>ሰው ሃብት</option><option>ሌላ</option>
             </select>
           </div>
